@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="content">
+            <h2>About Me</h2>
+            <p>I'm a mechanical engineer with a passion for project management. I have extensive experience in designing, analyzing, and managing complex engineering projects.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="content">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <h3>Mechanical Engineering</h3>
+                    <p>CAD, FEA, Thermodynamics, Fluid Mechanics</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Project Management</h3>
+                    <p>Agile, Scrum, Gantt Charts, Risk Management</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="content">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>Project Title 1</h3>
+                <p>Description of the project goes here.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project Title 2</h3>
+                <p>Description of the project goes here.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="content">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
